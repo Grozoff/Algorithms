@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Algorithms.LeetCode.Medium
+namespace LeetCodeProblems.Medium
 {
     /// <summary>
     /// <see href="https://leetcode.com/problems/string-to-integer-atoi/">String to Integer (atoi)</see>

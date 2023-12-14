@@ -1,4 +1,4 @@
-﻿namespace Algorithms.LeetCode.Easy
+﻿namespace LeetCodeProblems.Easy
 {
     /// <summary>
     /// <see href="https://leetcode.com/problems/intersection-of-two-arrays-ii">Intersection of Two Arrays II</see>

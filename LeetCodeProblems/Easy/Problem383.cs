@@ -1,4 +1,4 @@
-﻿namespace Algorithms.LeetCode.Easy
+﻿namespace LeetCodeProblems.Easy
 {
     /// <summary>
     /// <see href="https://leetcode.com/problems/ransom-note/">Ransom Note</see>

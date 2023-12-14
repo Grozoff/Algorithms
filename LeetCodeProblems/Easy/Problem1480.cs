@@ -1,4 +1,4 @@
-﻿namespace Algorithms.LeetCode.Easy
+﻿namespace LeetCodeProblems.Easy
 {
     /// <summary>
     /// <see href="https://leetcode.com/problems/running-sum-of-1d-array/">Running Sum of 1d Array</see>

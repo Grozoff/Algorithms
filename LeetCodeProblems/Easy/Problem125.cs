@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Algorithms.LeetCode.Easy
+namespace LeetCodeProblems.Easy
 {
     /// <summary>
     /// <see href="https://leetcode.com/problems/valid-palindrome/">Valid Palindrome</see>

@@ -1,4 +1,4 @@
-﻿namespace Algorithms.LeetCode.Easy
+﻿namespace LeetCodeProblems.Easy
 {
     /// <summary>
     /// <see href="https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/">Number of Steps to Reduce a Number to Zero</see>

@@ -1,4 +1,4 @@
-﻿namespace Algorithms.LeetCode.Medium
+﻿namespace LeetCodeProblems.Medium
 {
 
     //Definition for singly-linked list.

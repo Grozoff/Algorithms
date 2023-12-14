@@ -1,4 +1,4 @@
-﻿namespace Algorithms.LeetCode.Easy
+﻿namespace LeetCodeProblems.Easy
 {
 
     //Definition for singly-linked list.

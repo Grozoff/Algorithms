@@ -1,4 +1,4 @@
-﻿namespace Algorithms.LeetCode.Medium
+﻿namespace LeetCodeProblems.Medium
 {
     /// <summary>
     /// <see href="https://leetcode.com/problems/rotate-array/">Rotate Array</see>

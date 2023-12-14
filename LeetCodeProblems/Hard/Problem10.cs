@@ -1,4 +1,4 @@
-﻿namespace Algorithms.LeetCode.Hard
+﻿namespace LeetCodeProblems.Hard
 {
     /// <summary>
     /// <see href="https://leetcode.com/problems/regular-expression-matching/description/">Regular Expression Matching</see>

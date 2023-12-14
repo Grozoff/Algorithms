@@ -1,4 +1,4 @@
-﻿namespace Algorithms.LeetCode.Medium
+﻿namespace LeetCodeProblems.Medium
 {
     /// <summary>
     /// <see href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/">Best Time to Buy and Sell Stock II</see>

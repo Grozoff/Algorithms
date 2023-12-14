@@ -1,4 +1,4 @@
-namespace Algorithms.LeetCode.Easy
+namespace LeetCodeProblems.Easy
 {
     /// <summary>
     /// <see href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">Remove Duplicates from Sorted Array</see>
