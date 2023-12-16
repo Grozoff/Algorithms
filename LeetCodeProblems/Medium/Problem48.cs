@@ -21,6 +21,13 @@
                     // swap using tuple: https://www.reddit.com/r/ProgrammerTIL/comments/8ssiqb/comment/e12301f/
                     (matrix[j][end - i], matrix[i][j], matrix[end - j][i], matrix[end - i][end - j]) =
                         (matrix[i][j], matrix[end - j][i], matrix[end - i][end - j], matrix[j][end - i]);
+
+                    // without tuple
+                    //var tmp = matrix[j][end - i];
+                    //matrix[j][end - i] = matrix[i][j];
+                    //matrix[i][j] = matrix[end - j][i];
+                    //matrix[end - j][i] = matrix[end - i][end - j];
+                    //matrix[end - i][end - j] = tmp;
                 }
             }
         }
