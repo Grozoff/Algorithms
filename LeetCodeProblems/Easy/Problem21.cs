@@ -1,7 +1,4 @@
-﻿using LeetCodeProblems.Medium;
-using Newtonsoft.Json.Linq;
-
-namespace LeetCodeProblems.Easy
+﻿namespace LeetCodeProblems.Easy
 {
     /// <summary>
     /// <see href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists</see>
