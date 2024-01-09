@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/merge-two-sorted-lists/">Merge Two Sorted Lists</see>
     /// <br>Linked List, Recursion</br>
     /// </summary>
-    internal class Problem21
+    internal class Problem0021
     {
         public static ListNode MergeTwoLists(ListNode list1, ListNode list2)
         {
@@ -91,7 +91,7 @@
             ListNode list1 = null;
             // list2 = [0]
             ListNode list2 = new ListNode(0);
-            var output = Problem21.MergeTwoLists(list1, list2);
+            var output = Problem0021.MergeTwoLists(list1, list2);
 
             //Assert.That(output, Is.EqualTo(false));
         }
@@ -103,7 +103,7 @@
             ListNode list1 = null;
             // list2 = [0]
             ListNode list2 = new ListNode(0);
-            var output = Problem21.MergeTwoLists(list2, list1);
+            var output = Problem0021.MergeTwoLists(list2, list1);
 
             //Assert.That(output, Is.EqualTo(false));
         }

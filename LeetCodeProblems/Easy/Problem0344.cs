@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/reverse-string/">Reverse String</see>
     /// <br>String, Two Pointers</br>
     /// </summary>
-    internal class Problem344
+    internal class Problem0344
     {
         public void ReverseString(char[] s)
         {

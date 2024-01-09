@@ -4,7 +4,7 @@
     /// <see href='https://leetcode.com/problems/valid-sudoku/'>Valid Sudoku</see>
     /// <br>Array, Hash Table, Matrix</br>
     /// </summary>
-    internal class Problem36
+    internal class Problem0036
     {
         public static bool IsValidSudoku(char[][] board)
         {
@@ -75,7 +75,7 @@
                 ,['.','.','.','4','1','9','.','.','5']
                 ,['.','.','.','.','8','.','.','7','9']
             };
-            var output = Problem36.IsValidSudoku(input);
+            var output = Problem0036.IsValidSudoku(input);
             Assert.That(output, Is.True);
         }
 
@@ -94,7 +94,7 @@
                 ,['.','.','.','4','1','9','.','.','5']
                 ,['.','.','.','.','8','.','.','7','9']
             };
-            var output = Problem36.IsValidSudoku(input);
+            var output = Problem0036.IsValidSudoku(input);
             Assert.That(output, Is.False);
         }
 
@@ -113,7 +113,7 @@
                 ,['.','.','.','4','1','9','.','.','5']
                 ,['.','.','.','.','8','.','.','7','9']
             };
-            var output = Problem36.IsValidSudoku(input);
+            var output = Problem0036.IsValidSudoku(input);
             Assert.That(output, Is.False);
         }
     }

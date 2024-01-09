@@ -13,7 +13,7 @@
     /// <see href="https://leetcode.com/problems/delete-node-in-a-linked-list/">Delete Node in a Linked List</see>
     /// <br>Linked List</br>
     /// </summary>
-    internal class Problem237
+    internal class Problem0237
     {
         public void DeleteNode(ListNode node)
         {

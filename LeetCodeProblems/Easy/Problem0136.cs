@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/single-number/">Single Number</see>
     /// <br>Array, Bit Manipulation</br>
     /// </summary>
-    internal class Problem136
+    internal class Problem0136
     {
         public int SingleNumber(int[] nums)
         {

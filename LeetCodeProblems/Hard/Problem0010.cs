@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/regular-expression-matching/description/">Regular Expression Matching</see>
     /// <br>String, Dynamic Programming, Recursion</br>
     /// </summary>
-    internal class Problem10
+    internal class Problem0010
     {
         public bool IsMatch(string s, string p)
         {

@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/">Best Time to Buy and Sell Stock II</see>
     /// <br>Array, Dynamic Programming, Greedy</br>
     /// </summary>
-    public class Problem122
+    public class Problem0122
     {
         public static int MaxProfit(int[] prices)
         {
@@ -36,7 +36,7 @@
         public void Test1()
         {
             var input = new[] { 7, 1, 5, 3, 6, 4 };
-            var output = Problem122.MaxProfit(input);
+            var output = Problem0122.MaxProfit(input);
 
             Assert.That(7, Is.EqualTo(output));
         }
@@ -45,7 +45,7 @@
         public void Test2()
         {
             var input = new[] { 1, 2, 3, 4, 5 };
-            var output = Problem122.MaxProfit(input);
+            var output = Problem0122.MaxProfit(input);
 
             Assert.That(4, Is.EqualTo(output));
         }
@@ -54,7 +54,7 @@
         public void Test3()
         {
             var input = new[] { 7, 6, 4, 3, 1 };
-            var output = Problem122.MaxProfit(input);
+            var output = Problem0122.MaxProfit(input);
 
             Assert.That(0, Is.EqualTo(output));
         }

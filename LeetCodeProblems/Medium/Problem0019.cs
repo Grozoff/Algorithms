@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/">Remove Nth Node From End of List</see>
     /// <br>Linked List, Two Pointers</br>
     /// </summary>
-    internal class Problem19
+    internal class Problem0019
     {
         public ListNode RemoveNthFromEnd(ListNode head, int n)
         {

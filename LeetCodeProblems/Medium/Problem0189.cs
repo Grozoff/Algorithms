@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/rotate-array/">Rotate Array</see>
     /// <br>Array, Math, Two Pointers</br>
     /// </summary>
-    internal class Problem189
+    internal class Problem0189
     {
         public void Rotate(int[] nums, int k)
         {

@@ -4,7 +4,7 @@ namespace LeetCodeProblems.Easy
     /// <see href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">Remove Duplicates from Sorted Array</see>
     /// <br>Array, Two Pointers</br>
     /// </summary>
-    public class Problem26
+    public class Problem0026
     {
         public static int RemoveDuplicates(int[] nums)
         {
@@ -40,7 +40,7 @@ namespace LeetCodeProblems.Easy
         public void Test1()
         {
             var input = new[] { 1, 1, 2 };
-            var output = Problem26.RemoveDuplicates(input);
+            var output = Problem0026.RemoveDuplicates(input);
 
             Assert.That(2, Is.EqualTo(output));
         }
@@ -49,7 +49,7 @@ namespace LeetCodeProblems.Easy
         public void Test2()
         {
             var input = new[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
-            var output = Problem26.RemoveDuplicates(input);
+            var output = Problem0026.RemoveDuplicates(input);
 
             Assert.That(5, Is.EqualTo(output));
         }

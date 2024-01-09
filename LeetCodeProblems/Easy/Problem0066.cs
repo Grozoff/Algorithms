@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/plus-one/">Plus One</see>
     /// <br>Array, Math</br>
     /// </summary>
-    internal class Problem66
+    internal class Problem0066
     {
         public int[] PlusOne(int[] digits)
         {

@@ -18,7 +18,7 @@
     /// <see href="https://leetcode.com/problems/add-two-numbers/">Add Two Numbers</see>
     /// <br>Linked List, Math, Recursion</br>
     /// </summary>
-    internal class Problem2
+    internal class Problem0002
     {
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {

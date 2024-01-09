@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/valid-parentheses/">Valid Parentheses</see>
     /// <br>String, Stack</br>
     /// </summary>
-    internal class Problem20
+    internal class Problem0020
     {
         public static bool IsValid(string s)
         {
@@ -33,7 +33,7 @@
         public void Test1()
         {
             var s = "()";
-            var output = Problem20.IsValid(s);
+            var output = Problem0020.IsValid(s);
 
             Assert.That(output, Is.EqualTo(true));
         }
@@ -42,7 +42,7 @@
         public void Test2()
         {
             var s = "()[]{}";
-            var output = Problem20.IsValid(s);
+            var output = Problem0020.IsValid(s);
 
             Assert.That(output, Is.EqualTo(true));
         }
@@ -51,7 +51,7 @@
         public void Test3()
         {
             var s = "(]";
-            var output = Problem20.IsValid(s);
+            var output = Problem0020.IsValid(s);
 
             Assert.That(output, Is.EqualTo(false));
         }
@@ -60,7 +60,7 @@
         public void Test4()
         {
             var s = "([]{})";
-            var output = Problem20.IsValid(s);
+            var output = Problem0020.IsValid(s);
 
             Assert.That(output, Is.EqualTo(true));
         }
@@ -69,7 +69,7 @@
         public void Test5()
         {
             var s = "([)]";
-            var output = Problem20.IsValid(s);
+            var output = Problem0020.IsValid(s);
 
             Assert.That(output, Is.EqualTo(false));
         }
@@ -78,7 +78,7 @@
         public void Test6()
         {
             var s = "(){}}{";
-            var output = Problem20.IsValid(s);
+            var output = Problem0020.IsValid(s);
 
             Assert.That(output, Is.EqualTo(false));
         }
@@ -87,7 +87,7 @@
         public void Test7()
         {
             var s = "({[)";
-            var output = Problem20.IsValid(s);
+            var output = Problem0020.IsValid(s);
 
             Assert.That(output, Is.EqualTo(false));
         }
@@ -96,7 +96,7 @@
         public void Test8()
         {
             var s = ")(){}";
-            var output = Problem20.IsValid(s);
+            var output = Problem0020.IsValid(s);
 
             Assert.That(output, Is.EqualTo(false));
         }
@@ -105,7 +105,7 @@
         public void Test9()
         {
             var s = "(([]){})";
-            var output = Problem20.IsValid(s);
+            var output = Problem0020.IsValid(s);
 
             Assert.That(output, Is.EqualTo(true));
         }
@@ -114,7 +114,7 @@
         public void Test10()
         {
             var s = "[({(())}[()])]";
-            var output = Problem20.IsValid(s);
+            var output = Problem0020.IsValid(s);
 
             Assert.That(output, Is.EqualTo(true));
         }

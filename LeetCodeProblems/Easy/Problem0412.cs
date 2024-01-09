@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/fizz-buzz/">Fizz Buzz</see>
     /// <br>Math, String, Simulation</br>
     /// </summary>
-    internal class Problem412
+    internal class Problem0412
     {
         public IList<string> FizzBuzz(int n)
         {

@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/valid-anagram/">Valid Anagram</see>
     /// <br>Hash Table,String, Sorting</br>
     /// </summary>
-    internal class Problem242
+    internal class Problem0242
     {
         public static bool IsAnagram(string s, string t)
         {
@@ -32,7 +32,7 @@
         {
             var s = "aacc";
             var t = "ccac";
-            var output = Problem242.IsAnagram(s, t);
+            var output = Problem0242.IsAnagram(s, t);
 
             Assert.That(output, Is.EqualTo(false));
         }
@@ -42,7 +42,7 @@
         {
             var s = "anagram";
             var t = "nagaram";
-            var output = Problem242.IsAnagram(s, t);
+            var output = Problem0242.IsAnagram(s, t);
 
             Assert.That(output, Is.EqualTo(true));
         }

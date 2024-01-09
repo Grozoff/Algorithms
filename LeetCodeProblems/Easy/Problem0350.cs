@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/intersection-of-two-arrays-ii">Intersection of Two Arrays II</see>
     /// <br>Array, Hash Table, Two Pointers, Binary Search, Sorting</br>
     /// </summary>
-    internal class Problem350
+    internal class Problem0350
     {
         public int[] Intersect(int[] nums1, int[] nums2)
         {

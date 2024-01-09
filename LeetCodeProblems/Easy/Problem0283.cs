@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/move-zeroes/">Move Zeroes</see>
     /// <br>Array, Two Pointers</br>
     /// </summary>
-    internal class Problem283
+    internal class Problem0283
     {
         public void MoveZeroes(int[] nums)
         {

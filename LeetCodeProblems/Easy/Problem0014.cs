@@ -6,7 +6,7 @@ namespace LeetCodeProblems.Easy
     /// <see href="https://leetcode.com/problems/longest-common-prefix/">Longest Common Prefix</see>
     /// <br>String, Trie</br>
     /// </summary>
-    internal class Problem14
+    internal class Problem0014
     {
         public string LongestCommonPrefix(string[] strs)
         {

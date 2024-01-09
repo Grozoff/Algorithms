@@ -17,7 +17,7 @@
     /// <see href="https://leetcode.com/problems/middle-of-the-linked-list/">Middle of the Linked List</see>
     /// <br>Linked List, Two Pointers</br>
     /// </summary>
-    internal class Problem876
+    internal class Problem0876
     {
         public ListNode MiddleNode(ListNode head)
         {

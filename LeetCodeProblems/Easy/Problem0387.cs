@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/first-unique-character-in-a-string/">First Unique Character in a String</see>
     /// <br>Hash Table, String, Queue, Counting</br>
     /// </summary>
-    internal class Problem387
+    internal class Problem0387
     {
         public static int FirstUniqChar(string s)
         {
@@ -40,7 +40,7 @@
         public void Test1()
         {
             var input = "leetcode";
-            var output = Problem387.FirstUniqChar(input);
+            var output = Problem0387.FirstUniqChar(input);
 
             Assert.That(output, Is.EqualTo(0));
         }
@@ -49,7 +49,7 @@
         public void Test2()
         {
             var input = "loveleetcode";
-            var output = Problem387.FirstUniqChar(input);
+            var output = Problem0387.FirstUniqChar(input);
 
             Assert.That(output, Is.EqualTo(2));
         }
@@ -58,7 +58,7 @@
         public void Test3()
         {
             var input = "aabb";
-            var output = Problem387.FirstUniqChar(input);
+            var output = Problem0387.FirstUniqChar(input);
 
             Assert.That(output, Is.EqualTo(-1));
         }

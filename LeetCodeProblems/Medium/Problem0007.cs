@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/reverse-integer/">Reverse Integer</see>
     /// <br>Math</br>
     /// </summary>
-    internal class Problem7
+    internal class Problem0007
     {
         public static int Reverse(int s)
         {

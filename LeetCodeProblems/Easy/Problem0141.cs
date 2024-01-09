@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/linked-list-cycle/">Linked List Cycle</see>
     /// <br>Hash Table, Linked List, Two Pointers</br>
     /// </summary>
-    internal class Problem141
+    internal class Problem0141
     {
         public bool HasCycle(ListNode head)
         {

@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/contains-duplicate/">Contains Duplicate</see>
     /// <br>Array, Hash Table, Sorting</br>
     /// </summary>
-    internal class Problem217
+    internal class Problem0217
     {
         public bool ContainsDuplicate(int[] nums)
         {

@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/reverse-linked-list/">Reverse Linked List</see>
     /// <br>Linked List, Recursion</br>
     /// </summary>
-    internal class Problem206
+    internal class Problem0206
     {
         public ListNode ReverseList(ListNode head)
         {

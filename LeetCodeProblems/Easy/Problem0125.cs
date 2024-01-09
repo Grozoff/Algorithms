@@ -6,7 +6,7 @@ namespace LeetCodeProblems.Easy
     /// <see href="https://leetcode.com/problems/valid-palindrome/">Valid Palindrome</see>
     /// <br>Two Pointers, String</br>
     /// </summary>
-    internal class Problem125
+    internal class Problem0125
     {
         public bool IsPalindrome(string s)
         {

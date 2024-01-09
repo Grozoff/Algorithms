@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/rotate-image/">Rotate Image</see>
     /// <br>Array, Math, Matrix</br>
     /// </summary>
-    internal class Problem48
+    internal class Problem0048
     {
         public static void Rotate(int[][] matrix)
         {
@@ -57,7 +57,7 @@
                 [9, 6, 3]
             };
 
-            Problem48.Rotate(input);
+            Problem0048.Rotate(input);
 
             Assert.That(result, Is.EqualTo(input));
         }
@@ -68,7 +68,7 @@
             var input = new int[][] { [5, 1, 9, 11], [2, 4, 8, 10], [13, 3, 6, 7], [15, 14, 12, 16] };
             var result = new int[][] { [15, 13, 2, 5], [14, 3, 4, 1], [12, 6, 8, 9], [16, 7, 10, 11] };
 
-            Problem48.Rotate(input);
+            Problem0048.Rotate(input);
 
             Assert.That(result, Is.EqualTo(input));
         }

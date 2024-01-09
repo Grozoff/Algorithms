@@ -6,7 +6,7 @@ namespace LeetCodeProblems.Medium
     /// <see href="https://leetcode.com/problems/string-to-integer-atoi/">String to Integer (atoi)</see>
     /// <br>String</br>
     /// </summary>
-    internal class Problem8
+    internal class Problem0008
     {
         public static int MyAtoi(string s)
         {
@@ -57,7 +57,7 @@ namespace LeetCodeProblems.Medium
         public void Test1()
         {
             var input = "42";
-            var output = Problem8.MyAtoi(input);
+            var output = Problem0008.MyAtoi(input);
             Assert.That(output, Is.EqualTo(42));
         }
 
@@ -65,7 +65,7 @@ namespace LeetCodeProblems.Medium
         public void Test2()
         {
             var input = "   -42";
-            var output = Problem8.MyAtoi(input);
+            var output = Problem0008.MyAtoi(input);
             Assert.That(output, Is.EqualTo(-42));
         }
 
@@ -73,7 +73,7 @@ namespace LeetCodeProblems.Medium
         public void Test3()
         {
             var input = "4193 with words";
-            var output = Problem8.MyAtoi(input);
+            var output = Problem0008.MyAtoi(input);
             Assert.That(output, Is.EqualTo(4193));
         }
 
@@ -81,7 +81,7 @@ namespace LeetCodeProblems.Medium
         public void Test4()
         {
             var input = "with words -4193";
-            var output = Problem8.MyAtoi(input);
+            var output = Problem0008.MyAtoi(input);
             Assert.That(output, Is.EqualTo(0));
         }
 
@@ -89,7 +89,7 @@ namespace LeetCodeProblems.Medium
         public void Test5()
         {
             var input = ".1";
-            var output = Problem8.MyAtoi(input);
+            var output = Problem0008.MyAtoi(input);
             Assert.That(output, Is.EqualTo(0));
         }
     }

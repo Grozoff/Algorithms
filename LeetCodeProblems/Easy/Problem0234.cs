@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/palindrome-linked-list/">Palindrome Linked List</see>
     /// <br>Linked List, Two Pointers, Stack, Recursion</br>
     /// </summary>
-    internal class Problem234
+    internal class Problem0234
     {
         public bool IsPalindrome(ListNode head)
         {

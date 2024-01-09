@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/ransom-note/">Ransom Note</see>
     /// <br>Hash Table, String, Counting</br>
     /// </summary>
-    internal class Problem383
+    internal class Problem0383
     {
         public bool CanConstruct(string ransomNote, string magazine)
         {

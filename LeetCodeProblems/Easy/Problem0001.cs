@@ -4,7 +4,7 @@
     /// <see href="https://leetcode.com/problems/two-sum/">Two Sum</see>
     /// <br>Array, Hash Table</br>
     /// </summary>
-    internal class Problem1
+    internal class Problem0001
     {
         public static int[] TwoSum(int[] nums, int target)
         {
@@ -36,7 +36,7 @@
         {
             var numst = new[] { 2, 7, 11, 15 };
             var target = 9;
-            var output = Problem1.TwoSum(numst, target);
+            var output = Problem0001.TwoSum(numst, target);
 
             Assert.That(new[] { 0, 1 }, Is.EqualTo(output));
         }
@@ -46,7 +46,7 @@
         {
             var numst = new[] { 3, 2, 4 };
             var target = 6;
-            var output = Problem1.TwoSum(numst, target);
+            var output = Problem0001.TwoSum(numst, target);
 
             Assert.That(new[] { 1, 2 }, Is.EqualTo(output));
         }
@@ -56,7 +56,7 @@
         {
             var numst = new[] { 3, 3 };
             var target = 6;
-            var output = Problem1.TwoSum(numst, target);
+            var output = Problem0001.TwoSum(numst, target);
 
             Assert.That(new[] { 0, 1 }, Is.EqualTo(output));
         }
