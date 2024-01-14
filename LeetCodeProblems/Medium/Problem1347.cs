@@ -1,5 +1,9 @@
 ﻿namespace LeetCodeProblems.Medium
 {
+    /// <summary>
+    /// <see href='https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/'>Minimum Number of Steps to Make Two Strings Anagram</see>
+    /// <br>Hash Table, String, Counting</br>
+    /// </summary>
     internal class Problem1347
     {
         public static int MinSteps(string s, string t)
