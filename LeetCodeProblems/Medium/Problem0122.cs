@@ -9,10 +9,9 @@
         public static int MaxProfit(int[] prices)
         {
             int maxProfit = 0;
-            int profit = 0;
             for (int i = 1; i < prices.Length; i++)
             {
-                profit = prices[i] - prices[i - 1];
+                var profit = prices[i] - prices[i - 1];
 
                 if (profit > 0)
                 {
@@ -26,12 +25,6 @@
 
     public class Tests122
     {
-
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [Test]
         public void Test1()
         {
