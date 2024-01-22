@@ -4,7 +4,7 @@
     {
         public static int MissingNumber(int[] nums)
         {
-            return Math.Abs(((nums.Length * (nums.Length + 1)) / 2) - nums.Sum());
+            return (nums.Length * (nums.Length + 1) / 2) - nums.Sum();
 
             // not my solution
             int x = nums.Length;
