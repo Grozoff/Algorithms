@@ -1,6 +1,6 @@
 ﻿namespace LeetCodeProblems.Medium
 {
-    internal class Problem380
+    internal class Problem0380
     {
     }
 
