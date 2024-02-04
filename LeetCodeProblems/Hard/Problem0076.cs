@@ -1,5 +1,9 @@
 ﻿namespace LeetCodeProblems.Hard
 {
+    /// <summary>
+    /// <see href="https://leetcode.com/problems/minimum-window-substring">Minimum Window Substring</see>
+    /// <br>Hash Table, String, Sliding Window</br>
+    /// </summary>
     internal class Problem0076
     {
         public string MinWindow(string s, string t)
