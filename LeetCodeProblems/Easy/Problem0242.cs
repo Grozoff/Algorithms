@@ -8,14 +8,13 @@
     {
         public static bool IsAnagram(string s, string t)
         {
-            if (s.Length != t.Length)
-            {
-                return false;
-            }
-            if (s == t)
-                return true;
+            var c1 = s.ToArray();
+            var c2 = t.ToArray();
 
-            return s.OrderBy(x => x).SequenceEqual(t.OrderBy(x => x));
+            Array.Sort(c1);
+            Array.Sort(c2);
+
+            return c1.SequenceEqual(c2);
         }
     }
 
