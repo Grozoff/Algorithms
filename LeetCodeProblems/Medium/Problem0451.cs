@@ -22,7 +22,11 @@
                 }
             }
 
+
             return new string(d.Values.OrderByDescending(x => x.Count).SelectMany(x => x).ToArray());
+
+            // one line solution
+            return new string(s.GroupBy(x => x).OrderByDescending(x => x.Count()).SelectMany(x => x).ToArray());
         }
     }
 }
