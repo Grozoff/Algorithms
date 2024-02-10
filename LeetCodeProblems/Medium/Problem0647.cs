@@ -1,5 +1,9 @@
 ﻿namespace LeetCodeProblems.Medium
 {
+    /// <summary>
+    /// <see href="https://leetcode.com/problems/palindromic-substrings">Palindromic Substrings</see>
+    /// <br>String, Dynamic Programming</br>
+    /// </summary>
     internal class Problem0647
     {
         public int CountSubstrings(string s)
