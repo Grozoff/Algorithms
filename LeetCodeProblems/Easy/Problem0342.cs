@@ -37,6 +37,9 @@ namespace LeetCodeProblems.Easy
             double nLog = (Math.Log(n) / Math.Log(4));
 
             return nLog - (int)nLog == 0;
+
+            var log = Math.Log(n, 4);
+            return log == (int)log;
         }
     }
 }
