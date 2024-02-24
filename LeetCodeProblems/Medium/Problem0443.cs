@@ -1,7 +1,11 @@
 ﻿using System.Text;
 
-namespace LeetCodeProblems
+namespace LeetCodeProblems.Medium
 {
+    /// <summary>
+    /// <see href='https://leetcode.com/problems/string-compression'>String Compression</see>
+    /// <br>Two Pointers, String</br>
+    /// </summary>
     internal class Problem0443
     {
         public static int Compress(char[] chars)
@@ -18,7 +22,7 @@ namespace LeetCodeProblems
                 }
                 else
                 {
-                    if(sum > 1)
+                    if (sum > 1)
                         sb.Append(sum);
                     sb.Append(chars[i]);
                     sum = 1;
