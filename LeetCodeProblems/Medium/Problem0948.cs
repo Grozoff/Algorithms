@@ -1,7 +1,7 @@
 ﻿namespace LeetCodeProblems.Medium
 {
     /// <summary>
-    /// <see href="https://leetcode.com/problems/removing-stars-from-a-string">Removing Stars From a String</see>
+    /// <see href="https://leetcode.com/problems/bag-of-tokens">Bag of Tokens</see>
     /// <br>Array, Two Pointers, Greedy, Sorting</br>
     /// </summary>
     internal class Problem0948
