@@ -50,6 +50,14 @@
             }
 
             return depth;
+
+            // shorter version
+            if (root is null) return 0;
+
+            var left = MaxDepth(root.left);
+            var right = MaxDepth(root.right);
+
+            return 1 + Math.Max(left, right);
         }
     }
 
