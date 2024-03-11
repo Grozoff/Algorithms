@@ -3,7 +3,7 @@
 namespace LeetCodeProblems.Medium
 {
     /// <summary>
-    /// <see href="https://leetcode.com/problems/custom-sort-string/">https://leetcode.com/problems/custom-sort-string/</see>
+    /// <see href="https://leetcode.com/problems/custom-sort-string/">Custom Sort String</see>
     /// <br>Hash Table, String, Sorting</br>
     /// </summary>
     internal class Problem0791
