@@ -6,12 +6,12 @@
     /// </summary>
     internal class Problem0992
     {
-        public int SubarraysWithKDistinct(int[] nums, int k)
+        public static int SubarraysWithKDistinct(int[] nums, int k)
         {
             return Count(nums, k) - Count(nums, k - 1);
         }
 
-        private int Count(int[] nums, int k)
+        private static int Count(int[] nums, int k)
         {
             int[] count = new int[nums.Length + 1];
             var result = 0;
